@@ -29,23 +29,21 @@
 	<!-- 页面标题图标 -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- css头部加载 有助于 浏览器 渲染 -->
-	<link rel="stylesheet" href="assets/css/reset.css" /><!-- css 重置 -->
-	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/reset.css" /><!-- css 重置 -->
+	<link rel="stylesheet" href="../assets/css/style.css" />
 	<!-- modernizr 用于处理 各浏览器 兼容 因为要 处理css样式兼容 所以 头部加载 -->
-	<script src="assets/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<script src="assets/libs/device/0.2.4/device.min.js"></script>
+	<script src="../assets/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script src="../assets/libs/device/0.2.4/device.min.js"></script>
 </head>
 
 <body>
 <!-- 为何要用这个 div? 请看http://camendesign.com/code/developpeurs_sans_frontieres -->
 <div class="wrapper">
-	<h1>我的一些小东西</h1>
-	<ul>
-		<li><a href="./FileReader-vs-Canvas-toBase64">FileReader-vs-Canvas-toBase64</a></li>
-	</ul>
+	<div id="img-box"></div>
+	<div id="canvas-box"></div>
 </div>
 <!-- js 紧贴</body> 页面渲染完成 后处理 js 有助于 加快 页面响应速度 -->
-<script src='assets/libs/jquery/1.11.2/jquery.js'></script>
-<script src="assets/js/functions.js"></script>
+<script src='../assets/libs/jquery/1.11.2/jquery.js'></script>
+<script src="./assets/js/functions.js"></script>
 </body>
 </html>
